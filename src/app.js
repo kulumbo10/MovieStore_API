@@ -22,6 +22,8 @@ routes(app);
 
 
 /*
+DADOS ESTATICOS DA DB
+
 const movies = [
     {
         id: 1,
@@ -71,4 +73,6 @@ app.delete("/movies/:id", (req, res) => {
     res.status(200) .send("movie deleted with success!");
 });
 */
+
+
 export default app;
